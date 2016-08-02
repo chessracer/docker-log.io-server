@@ -5,7 +5,7 @@
 
 You can find log.io-harvester in the corresponding repository [docker-log.io-harvester](https://github.com/temal-/docker-log.io-harvester).
 
-## Example
+## Example 
 
 ```
 docker run -d -p 28777:28777 -p 28778:28778 -v /path/to/config:/home/logio/.log.io --name logio-server temal/logio-server
